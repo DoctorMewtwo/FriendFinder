@@ -1,0 +1,99 @@
+var Friends = [{
+    "name":"Ahmed",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+    ]
+},
+{
+    "name":"Selena",
+    "photo":"http://popcrush.com/files/2018/09/selena-gomez-social-media-break.jpg?w=980&q=75",
+    "scores":[
+        3,
+        2,
+        1,
+        4,
+        3,
+        5,
+        3,
+        2,
+        1,
+        3
+    ]
+},
+{
+    "name":"Ryan",
+    "photo":"https://m.media-amazon.com/images/M/MV5BMTQzMjkwNTQ2OF5BMl5BanBnXkFtZTgwNTQ4MTQ4MTE@._V1_UY317_CR18,0,214,317_AL_.jpg",
+    "scores":[
+        4,
+        4,
+        3,
+        2,
+        5,
+        1,
+        3,
+        2,
+        3,
+        2
+    ]
+},
+{
+    "name":"Scarlett",
+    "photo":"https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_UY317_CR23,0,214,317_AL_.jpg",
+    "scores":[
+        1,
+        2,
+        1,
+        3,
+        2,
+        5,
+        3,
+        1,
+        3,
+        2
+    ]
+},
+{
+    "name":"Ice Cube",
+    "photo":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQ3NjM5Mzg1OTA5NjM0NDM2/ice_cube_photo_by_munawar_hosain_getty_images_entertainment_getty_3017236.jpg",
+    "scores":[
+        4,
+        3,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        3,
+        1
+    ]
+},
+{
+    "name":"Beyonce",
+    "photo":"https://scstylecaster.files.wordpress.com/2018/01/beyonce-2.png",
+    "scores":[
+        5,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        5,
+        4,
+        5
+    ]
+},
+];
+
+module.exports = Friends;

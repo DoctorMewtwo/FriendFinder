@@ -8,7 +8,7 @@ module.exports = function(app) {
 
     app.post("/api/friends" , function(req , res) {
         console.log(req.body);
-        var trueFriend;
+        var trueFriend = {name : "", photo : "" , scores : []};
         var trueScore = 10;
         for(var i = 0; i < Friends.length; i++)
         {
@@ -17,7 +17,7 @@ module.exports = function(app) {
             for(var j = 0; j < 10; j++)
             {
                 scoreOne += Friends[i].scores[j];
-                scoreTwo += req.body.scores[j];
+                scoreTwo += parseInt(req.body.scores[j]);
             }
 
             if(Math.abs(scoreOne - scoreTwo) < trueScore)
@@ -25,6 +25,7 @@ module.exports = function(app) {
                 trueFriend = Friends[i];
             }
         }
+        Friends.push(req.body);
         return res.json(trueFriend);
 
 
